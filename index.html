@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOURNAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!--start-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div id="navbar">
+    <div class="container">
+        
+        <div class="row row2">
+            <div class="col-sm-2">
+                <h2 style="margin:0px;"><span class="smallnav menu" onclick="openNav()">☰ JOURNAL</span></h2>
+                <h1 style="margin:0px;"><span class="largenav">JOURNAL</span></h1>
+            </div>
+            <div class="navbar-search smallsearch col-sm-8 col-xs-11">
+                <div class="row">
+                    <input class="navbar-input col-xs-11" type="" placeholder="Search for Products, Brands and more" name="">
+                    <button class="navbar-button col-xs-1">
+                        <svg width="15px" height="15px">
+                            <path d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div id="mySidenav" class="sidenav">
+    <div class="container" style="background-color: #2874f0; padding-top: 10px;">
+        <span class="sidenav-heading">JUORNAL</span>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    </div>
+    <a><i class="fas fa-home "></i>            &nbsp;&nbsp; HOME</a>
+    <a class=" text-muted"><i class="fas fa-user-circle  text-muted "></i>   &nbsp;&nbsp;Sign in</a>
+    <a class=" text-muted"><i class="far fa-compass  text-muted"></i> &nbsp;&nbsp;Register</a>
+    <a class=" text-muted"><i class="far fa-heart  text-muted"></i> &nbsp;&nbsp;Wishlist</a>
+    <a class=" text-muted"><i class="far fa-check-circle  text-muted "></i> &nbsp;&nbsp;Compare</a>
+    <a class=" text-muted"> <i class="far fa-building  text-muted"></i>             &nbsp;&nbsp;  ALL DEPARTMENTS</a>
+    <a class=" text-muted"><i class="fas fa-briefcase text-muted"></i>        &nbsp;&nbsp;   MULTI LEVEL</a>
+    <a class=" text-muted"><i class="fas fa-envelope text-muted"></i>         &nbsp;&nbsp;   MEGA MENU </a>
+    <a class=" text-muted"><i class="fas fa-question-circle text-muted"></i>  &nbsp;&nbsp;   FULL WIDTH</a>
+    <a class=" text-muted"><i class="fas fa-phone-alt  text-muted"></i>            &nbsp;&nbsp;      1800 555 6789       </a>
+    <a class=" text-muted"><i class="fas fa-comment-alt  text-muted "></i>             &nbsp;&nbsp;   BLOG</a>
+    <a class=" text-muted"><i class="fas fa-briefcase text-muted"></i>        &nbsp;&nbsp;   About Us</a>
+    <a class=" text-muted"><i class="fas fa-envelope text-muted"></i>         &nbsp;&nbsp;  Contact</a>
+    <a class=" text-muted"><i class="fas fa-question-circle text-muted"></i>  &nbsp;&nbsp;    FAQ</a>
+</div>
+
+
+
+
+<!--end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="top row  d-flex nowrap justify-content-center " >
+        <div class="col">
+        <ul class="main1"> 
+             <li><i class="fas fa-home"></i> HOME</li>
+             <li><i class="fas fa-briefcase"></i> About Us</li>
+             <li><i class="fas fa-envelope"></i> Contact</li>
+             <li><i class="fas fa-question-circle"></i> FAQ~</li>
+        </ul>
+        </div>
+        <div class="col " >
+          <ul class="main2">
+            <li>
+              <i class="fas fa-dollar-sign"></i> US Dollar <i class="fas fa-caret-down"></i> 
+            </li>
+          </ul>
+           
+        </div>
+        <div class="col " >
+            <ul class="main3" >
+                <li>
+                   More Menus
+                </li>
+                <li>
+                    Delivery
+                </li>
+            </ul>
+             
+        </div>
+        
+    </section>
+
+   
+    <section class="nav-top ">
+      <div class="row   d-flex nowrap justify-content-center ">
+        <div class="col logo">JOURNAL</div>
+        <div class="col-6">
+         
+              <!-- <button type="button" class="btn btn-primary">All <i class="fas fa-caret-down"></i></button> -->
+              
+          
+         
+            <div class="  search d-flex dropdown bg-white">
+
+              <a class="btn  text-white bg-primary " href="#" role="button" id="moreMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All&nbsp;<i class="fas fa-caret-down"></i>
+          </a>
+              
+              <input class="form-control dropdown-toggle" type="search"
+                  placeholder="Search for products and more" aria-label="Search" id="navbarDropdown"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             
+                  <a class="btn  text-white bg-primary " href="#" role="button" id="moreMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-search mt-2 ml-sm-1 "></i>
+              </a>
+          </div>
+         
+          
+         
+        </div>
+
+
+
+        <div class="col-3 signin">
+          <div class="row  d-flex nowrap justify-content-center ">
+            <div class="col"><i class="fas fa-user-circle "></i><p>Sign in</p></div>
+            <div class="col"><i class="far fa-compass"></i><p>Register</p></div>
+            <div class="col"><i class="far fa-heart"></i><p>Wishlist</p></div>
+            <div class="col"><i class="far fa-check-circle"></i><p>Compare</p></div>
+          </div>
+        </div>
+        <div class="col cart add  ">
+          <div class="row  d-flex nowrap justify-content-center ">
+            <div class="col add "><p>$2.50</p></div>
+            <div class="col add "> <div class="circle">&nbsp;  2</div> <button type="button" class="btn btn-primary btn-lg "><i class="fas fa-shopping-cart"></i></button></div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+<!--=============================================================================-->
+
+
+    <section class=" nav-below bg-primary">
+      <div class="row  d-flex nowrap justify-content-center ">
+        <div class="col-6 below ">
+          <div class="row  d-flex nowrap justify-content-center ">
+            <div  class=" col col-4   bg-warning "  > <div class="active"> Sale</div> <p> <i class="far fa-building"></i> ALL DEPARTMENT</p></div>
+            <div class="col "><p style="color: white;">MULTILEVEL</p></div>
+            <div class="col"> <div class="active2">NEW</div> <p style="color: white;">MEGA MENU</p></div>
+            <div class="col"><p style="color: white;">FULL WIDTH</p></div>
+          </div>
+        </div>
+       <div class="col add "></div>
+        <div class="col below add ">
+          <div class="row  d-flex nowrap justify-content-center">
+          
+            <div class=" col col-lg"><p  style="color: white;">1-800-555-6789</p></div>
+            <div class="col bg-warning border-warning  " >  <div class="active">New</div> <p  style="margin-top: 1%;"> <i class="fas fa-comment-alt"></i>  BLOG</p></div>
+           
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+<!--====================================================================================-->
+
+    <div class="row  d-flex nowrap justify-content-center  banner">
+        <div class="col-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="visibility: hidden;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="visibility: hidden;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button  style="visibility: hidden;"type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/1bannerImage.PNG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/2bannerImage.PNG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/3bannerImage.PNG" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col-4">
+           <div class="col img1"></div>
+           <div class="col img2"></div>
+        </div>
+    </div>
+
+   
+
+
+    <section class="ourUs">
+      <div class="row  d-flex nowrap justify-content-center ">
+      <div class="inner col"><div class="icon"><i class="fas fa-truck"></i></div>
+                            <div class="text"><p>Free Shipping</p>Free delivery over $100</div>
+                          </div>
+      <div class="inner col "><div class="icon"><i class="fas fa-arrow-left"></i></div>
+                             <div class="text"><p>Free Returns </p> Hassle free returns</div> 
+                            </div>
+      <div class="inner col "><div class="icon"><i class="fas fa-shield-alt"></i></div>
+                             <div class="text"><p>Secure Shopping </p>Best security featurs </div> 
+                            </div>
+      <div class="inner col"><div class="icon"><i class="fas fa-cube"></i></div>
+                            <div class="text"><p>Unlimited BLocks </p>Any content, any page</div> 
+                          </div>
+    </div>
+    </section>
+
+
+    <section class="seller">
+      <h2>Why buy from us ?
+       
+      </h2>
+      
+      <hr>
+      
+      
+      
+      <p>Jourmal has been the best selling and most loved Opencart theme since first launch in 2013 . Tried ans tested by over 20K people,
+        Jourmal is the best Opencart theme framework on the market today ;
+      </p>
+    </section>
+
+
+    <section class="categories">
+      <div class="categories_nav">
+        <div class="row  d-flex nowrap justify-content-center ">
+          <div  class=" col-4 main    bg-primary "  > <div class="active bg-primary">h</div> <p>TOP CATEGORIES</p></div>
+          <div class="col "><p >ELECTRONICS</p></div>
+          <div class="col"> <p >BEAUTY</p></div>
+          <div class="col"><p >FASHION</p></div>
+        </div>
+      </div> 
+
+      <div class="categories_card">
+      
+
+        <div class="row d-flex nowrap justify-content-center">
+          <div class="card card_background   text-center sales" >
+              
+              <div class="card-body p-1" title="From ₹1,169">
+              
+                  
+                  <button type="button" class="btn btn_active btn-dark">Explore</button>
+              </div>
+          </div>
+
+          <div class="card ele1 card_background text-center sales">
+             
+              <div class="card-body p-1" title="Min 80% Off">
+                 
+                  
+                  <button type="button" class="btn btn_active btn-dark">Explore</button>
+              </div>
+          </div>
+
+          <div class="card ele2 card_background  text-center sales">
+            
+              <div class="card-body p-1" title="From ₹5,999">
+                
+                  <button type="button" class="btn btn_active btn-dark ">Explore</button>
+              </div>
+          </div>
+
+          <div class="card ele3 card_background  text-center sales">
+             
+              <div class="card-body p-1" title="Upto 78% off">
+                
+                  
+                  <button type="button" class="btn btn_active btn-dark">Explore</button>
+              </div>
+          </div>
+
+          <div class="card ele4 card_background   text-center sales">
+              
+              <div class="card-body p-1" title="Min 50% Off">
+                
+                  
+                  <button type="button" class="btn btn_active btn-dark">Explore</button>
+              </div>
+          </div>
+
+          <div class="card ele5  card_background text-center sales">
+            
+              <div class="card-body p-1" title="From &#x20B9;699">
+                
+                  <button type="button" class="btn btn_active btn-dark">Explore</button>
+              </div>
+          </div>
+      </div>
+ 
+  
+  
+     
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="seller">
+      <h2>Featured Products 
+       
+      </h2>
+      
+      <hr>
+      
+      
+      
+      <p>Jourmal has been the best selling and most loved Opencart theme since first launch in 2013 . Tried ans tested by over 20K people,
+        Jourmal is the best Opencart theme framework on the market today ;
+      </p>
+    </section>
+
+
+    <section class="categories">
+      <div class="categories_nav">
+        <div class="row  d-flex nowrap justify-content-center ">
+          <div  class=" col-4 main    bg-primary "  > <div class="active bg-primary">h</div> <p>FEATURED</p></div>
+       
+          <div class="col "><p >LATEST</p></div>
+          <div class="col"> <p >BESTSELLER</p></div>
+          <div class="col"><p >SPECIALS</p></div>
+        </div>
+      </div> 
+
+      <div class="categories_card">
+      
+
+        <div class="row d-flex nowrap justify-content-center">
+          <div class="card   text-center sales" >
+            <div class="active">20% off</div>
+              <img class="card-img-top p-4 img-fluid w-100"
+                  alt="Headphones"
+                  src="./images/toppng.com-headphone-669x846.png"
+                  >
+              <div class="card-body p-1" title="From ₹1,169">
+                  <h6 class="card-title">Headphones</h6>
+                  
+                  <a href="#" class="card-link">From $2.50</a>
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+
+          <div class="card text-center sales">
+              <img class="card-img-top p-2 img-fluid w-100"
+                  alt="sofa"
+                  src="./images/toppng.com-sofa-1280x630.png"
+                 >
+              <div class="card-body p-1" title="Min 80% Off">
+                  <h6 class="card-title">Sofas</h6>
+                  <a href="#" class="card-link">From $2.50</a>
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+
+          <div class="card text-center sales">
+              <img class="card-img-top p-2 img-fluid w-100"
+                  alt="camera "
+                  src="./images/toppng.com-gopro-action-camera-710x520.png"
+                 >
+                 <div class="active">5% off</div>
+              <div class="card-body p-1" title="From ₹5,999">
+                  <h6 class="card-title">GO Pro</h6>
+                  <a href="#" class="card-link">From $2.50</a>
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+
+          <div class="card text-center sales">
+              <img class="card-img-top p-5 img-fluid w-100" alt="ladies heels"
+                  src="./images/toppng.com-high-heel-shoes-752x720.png"
+                 >
+              <div class="card-body p-1" title="Upto 78% off">
+                  <h6 class="card-title">Heels </h6>
+                  <a href="#" class="card-link">From $2.50</a>
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+
+          <div class="card text-center sales">
+              <img class="card-img-top p-4 img-fluid w-100" alt="watches "
+                  src="./images/toppng.com-armin-running-watches-standard-bundle-blackgrey-garmin-forerunner-935-premium-gps-runningtriathlo-367x488.png"
+                  >
+              <div class="card-body p-1" title="Min 50% Off">
+                  <h6 class="card-title">Watches </h6>
+                  <a href="#" class="card-link">Min 50% Off</a>
+                  
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+
+          <div class="card text-center sales">
+              <img class="card-img-top p-3 img-fluid w-100" alt="Hat "
+                  src="./images/toppng.com-indiana-jones-all-seasons-outback-indiana-jones-hats-all-season-indiana-jones-soft-470x288.png"
+                  >
+              <div class="card-body p-1" title="From &#x20B9;699">
+                  <h6 class="card-title">Caps  </h6>
+                  <a href="#" class="card-link">From $2.50</a>
+                  
+                  <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+          </div>
+      </div>
+ 
+  
+  
+     
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+     <!-- Footer -->
+     <footer class="container-fluid">
+      <div class="row">
+          <div class="col ml-md-3 Footer">
+              <h6>ABOUT</h6>
+              <div>
+                  <a href="#">Contact Us</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Careers</a>
+                  <a href="#">Journal Stories</a>
+                  <a href="#">Press</a>
+                  <a href="#">Journal</a>
+                  <a href="#">Wholesale</a>
+              </div>
+          </div>
+          <div class="col Footer">
+              <h6>HELP</h6>
+              <div>
+                  <a href="#">Payments</a>
+                  <a href="#">Shipping</a>
+                  <a href="#">Cancellation & Returns</a>
+                  <a href="#">FAQ</a>
+                  <a href="#">Report</a>
+                  <a href="#">Infringement</a>
+              </div>
+          </div>
+          <div class="col Footer">
+              <h6>POLICY</h6>
+              <div>
+                  <a href="#">Return Policy</a>
+                  <a href="#">Term of Use</a>
+                  <a href="#">Security</a>
+                  <a href="#">Privacy</a>
+                  <a href="#">Sitemap</a>
+                  <a href="#">EPR Compliance</a>
+              </div>
+          </div>
+          <div class="col Footer">
+              <h6>SOCIAL</h6>
+              <div>
+                  <a href="#">Facebook</a>
+                  <a href="#">Twitter</a>
+                  <a href="#">You Tube</a>
+              </div>
+          </div>
+          <div class="col Footer border-left border-secondary">
+              <h6>Mail Us:</h6>
+              <div>
+                  <p>Journal Internet Private Limited,</p>
+                  <p>Buildings Alyssa, Begonia &</p>
+                  <p> Embassy Tech Village,</p>
+                  <p> Devarabeesanahalli Village,</p>
+                  <p>XYZ, 560103,</p>
+                  <p> India</p>
+              </div>
+          </div>
+          <div class="col Footer">
+              <h6>Registered Office Address:</h6>
+              <div>
+                  <p>Journal Internet Private Limited,</p>
+                  <p>Buildings Alyssa</p>
+                  <p> Embassy Tech Village,</p>
+                  <p>Outer Ring Road, Devarabeesanahali Village,</p>
+                  <p>XYZ , 560103,</p>
+                  <p> India</p>
+                  <p>CIN : UXXXXXXXXXXXXXXXXXXX</p>
+                  <p>Telephone: <a href="#" class="text-primary">1800 555 6789</a></p>
+              </div>
+          </div>
+      </div>
+
+      <div class="row border-top mt-5 py-3 border-secondary">
+          <div class="col">
+              <i class="fa fa-briefcase text-warning"></i>
+              <span>Sell On Journal</span>
+          </div>
+          <div class="col">
+              <i class="fab fa-stumbleupon-circle text-warning"></i>
+              <span>Advertise</span>
+          </div>
+          <div class="col">
+              <i class="fa fa-gift text-warning"></i>
+              <span>Gift Cards</span>
+          </div>
+          <div class="col">
+              <i class="fa fa-question-circle text-warning"></i>
+              <span>Help Center</span>
+          </div>
+          <div class="col col-md-2 col-xs-4">
+              <span>&copy; 2007-2021 JOURNAL.com</span>
+          </div>
+          <div class="col col-md-5 col-xs-6">
+              <img class="img-fluid" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_7934bc.svg">
+          </div>
+      </div>
+
+  </footer>
+
+    <!-- POP UP-->
+    <section class="pop_bg">
+    <div class="popup">
+      <div class="contextBox">
+          <div class="close"></div>
+          <div class="imgBx">
+              <img src="./images/coupon.png">
+          </div>
+          <div class="content">
+          <div>
+              <h3>Special offer</h3>
+              <h2>80<sup>%</sup><span>OFF</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ducimus aut debitis unde. Provident, voluptates. Corporis harum magni, enim corrupti iste totam quo beatae, sapiente, eaque praesentium laudantium rerum officia?</p>
+              <a href="#">Get the deal</a>
+          </div>
+          </div>
+      </div>
+
+    </section>
+
+  
+      <script>
+          const popup = document.querySelector('.popup');
+          const close = document.querySelector('.close');
+          const pop_bg = document.querySelector('.pop_bg');
+  
+          window.onload = function(){
+              setTimeout(function(){
+                  popup.style.display = "block"
+                  pop_bg.style.width = "100%"
+              } ,5000)
+          }
+  
+          close.addEventListener('click', ()=>{
+              popup.style.display = "none";
+              pop_bg.style.width = "0"
+          })
+      </script>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
